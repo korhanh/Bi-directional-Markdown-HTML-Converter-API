@@ -22,9 +22,13 @@ Seamlessly convert between Markdown and HTML with this high-performance API. Des
 2. Select your desired conversion mode from the toggle.
 3. Paste your text to see the instant result, or use the provided **cURL** example to integrate it into your flow.
 
-## API Example
+## API example
+ 
 ```bash
 curl -X POST "https://zetaleap.com/api/tools/convert" \
   -H "Authorization: Bearer YOUR_TOKEN" \
   -H "Content-Type: application/json" \
   -d '{"mode":"md2html","text":"# Hello World"}'
+```
+ 
+![Power Automate Integration Flow](1.png)
