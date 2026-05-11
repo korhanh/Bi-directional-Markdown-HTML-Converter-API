@@ -31,4 +31,6 @@ curl -X POST "https://zetaleap.com/api/tools/convert" \
   -d '{"mode":"md2html","text":"# Hello World"}'
 ```
  
-![Power Automate Integration Flow](1.png)
+<p align="center">
+  <img src="1.png" alt="Power Automate Integration Flow" />
+</p>
